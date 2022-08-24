@@ -23,10 +23,6 @@ We predict that some of the deleterious consequences of this fraud and plagiaris
 
 By solving both of these problems, we believe that a **more robust, vibrant NFT market** will ensue.
 
-## Solution
-
-We propose an **NFT Authenticity Protocol (AuthPro)** that enables NFT creators to verify the level of authenticity of an NFT. In parallel, we propose a **Verified Profile** that enables NFT market participants - beginning with NFT creators - to establish their community-vouched credibility.
-
 ### Defining Authenticity
 
 *Authenticity* is an intangible human concept that we have adapted and evolved to use in our everyday dealings with other people. What does authenticity mean in the context of NFTs?
@@ -55,7 +51,21 @@ As in the literal world, authenticity is based in part on verifying ownership. B
 >    - Proof of humanity
 >    - Community-vouched credibility
 
-### Scope of consideration
+### Removing originality from our scope of consideration
+As mentioned above, originality is a complex concept. When it comes to art, design, NFTs, or any concept imaginable by people in general, originality is highly subjective. More than this, originality itself is not a binary concept. In our above definition of Originality of Concept, we discussed the notion of inspirational lineage as an aspect of originality. We illustrate inspirational lineage further using an example: Take a painting of a seashore. Even if we can verify that the artist is the person who drew the painting from scratch, thus proving provenance, can we assert that the concept of a seashore painting is original? Is painting an actual seashore from the real world an original idea? Is painting a fictitious seashore from the artist's imagination an original idea? The answer in both cases, to the best of our understanding, can be both yes and no. Painting an actual seashore from the real world is both original (because the artist is the one copying the image of a real seashore) and not original (because it is based on a seashore that already exists outside the painting). Likewise, painting a fictitious seashore from the artist's imagination is both original (because the image of the seashore may be an original conception in the mind of the artist) and not original (because the notion of painting a seashore has obviously been used by countless artists before).
+
+Even if there existed a way to deterministically assess inspirational lineage, this on its own is not sufficient to determine true originality. We know from history that ideas tend to be inspired at roughly the same time, even for independent actors. This can be seen in the invention of calculus, where both Isaac Newton and Gottfried Wilhelm Leibniz invented what we now know as calculus at roughly the same time, in different countries, and entirely independently of each other. 
+
+For the reasons specified above, we have thus opted to remove Originality of Concept from the scope of the Authorization Protocol. 
+
+## Solution
+
+We propose an **NFT Authenticity Protocol (AuthPro)** that enables NFT creators to verify the level of authenticity of an NFT, based on three sub-pillars:
+- Identity of the original creator (enabled by the application of Soulbound Badges, also known as Soulbound Tokens)
+- Ownership history (enabled by the native blockchain but usually presented in an obscure format and non-user-friendly way)
+- How it was made (a set of features that accord proof of provenance)
+
+In parallel, we propose a **Verified Profile** that enables NFT market participants - beginning with NFT creators - to establish their community-vouched credibility/social proof.
 
 ### How it works
 
