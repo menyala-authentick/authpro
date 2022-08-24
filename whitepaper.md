@@ -13,8 +13,7 @@ The nascent state of the Web3 ecosystem in general and the NFT market specifical
 - **NFT buyers** have no effective way to ensure that the NFT they are buying is original in concept and in provenance
     - Scammers can [sleepmint NFTs](https://a16z.com/2022/03/09/sleep-minting-nfts/) and pass them off as authentic creations
 - **Brand commissioners** have no effective way to easily find credible creators to work with (”brand commissioners” here defined as individuals who represent a brand and who find and contract NFT creators to create NFTs for their brand)
-    - There is no way to tell the difference between a scammer and an authentic creator’s wallet / contract [[https://lemmatree.slack.com/files/U03PLSMTKB4/F03UTQRQY6Q/ssrn-id4105763.pdf](https://lemmatree.slack.com/files/U03PLSMTKB4/F03UTQRQY6Q/ssrn-id4105763.pdf)]
-    - rug-pulls?
+    - There is no way to tell the difference between a scammer and an authentic creator’s wallet / contract
 
 We predict that some of the deleterious consequences of this fraud and plagiarism issue in the NFT market include:
 
@@ -52,11 +51,13 @@ As in the literal world, authenticity is based in part on verifying ownership. B
 >    - Community-vouched credibility
 
 ### Removing originality from our scope of consideration
-As mentioned above, originality is a complex concept. When it comes to art, design, NFTs, or any concept imaginable by people in general, originality is highly subjective. More than this, originality itself is not a binary concept. In our above definition of Originality of Concept, we discussed the notion of inspirational lineage as an aspect of originality. We illustrate inspirational lineage further using an example: Take a painting of a seashore. Even if we can verify that the artist is the person who drew the painting from scratch, thus proving provenance, can we assert that the concept of a seashore painting is original? Is painting an actual seashore from the real world an original idea? Is painting a fictitious seashore from the artist's imagination an original idea? The answer in both cases, to the best of our understanding, can be both yes and no. Painting an actual seashore from the real world is both original (because the artist is the one copying the image of a real seashore) and not original (because it is based on a seashore that already exists outside the painting). Likewise, painting a fictitious seashore from the artist's imagination is both original (because the image of the seashore may be an original conception in the mind of the artist) and not original (because the notion of painting a seashore has obviously been used by countless artists before).
+As mentioned above, originality is a complex concept. When it comes to art, design, NFTs, or any concept imaginable by people in general, originality is highly subjective. More than this, originality itself is not a binary concept. In our above definition of Originality of Concept, we discussed the notion of inspirational lineage as an aspect of originality. We illustrate inspirational lineage further using an example:
+
+Take a painting of a seashore. Even if we can verify that the artist is the person who drew the painting from scratch, thus proving provenance, can we assert that the concept of a seashore painting is original? Is painting an actual seashore from the real world an original idea? Is painting a fictitious seashore from the artist's imagination an original idea? The answer in both cases, to the best of our understanding, can be both yes and no. Painting an actual seashore from the real world is both original (because the artist is the one copying the image of a real seashore) and not original (because it is based on a seashore that already exists outside the painting). Likewise, painting a fictitious seashore from the artist's imagination is both original (because the image of the seashore may be an original conception in the mind of the artist) and not original (because the notion of painting a seashore has obviously been used by countless artists before).
 
 Even if there existed a way to deterministically assess inspirational lineage, this on its own is not sufficient to determine true originality. We know from history that ideas tend to be inspired at roughly the same time, even for independent actors. This can be seen in the invention of calculus, where both Isaac Newton and Gottfried Wilhelm Leibniz invented what we now know as calculus at roughly the same time, in different countries, and entirely independently of each other. 
 
-For the reasons specified above, we have thus opted to remove Originality of Concept from the scope of the Authorization Protocol. 
+For the reasons specified above, we have thus opted to remove Originality of Concept from the scope of the Authenticity Protocol. 
 
 ## Solution
 
